@@ -1,0 +1,41 @@
+.footer {
+    color: #fff;
+    padding: 35px 0;
+    background: var(--black);
+    &__btn {
+        background: #fff;
+    }
+    &__bottom {
+        padding: 25px 0;
+        img {
+            margin-left: 26px;
+        }
+    }
+    &__form {
+        width: 100%;
+        padding: 80px 64px;
+        background: rgba($color: #fff, $alpha: 0.05);
+        margin: 54px 0;
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            max-width: 562px;
+        }
+        form {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 28px;
+            input {
+                width: 100%;
+                max-width: 323px;
+            }
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

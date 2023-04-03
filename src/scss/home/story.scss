@@ -1,0 +1,14 @@
+.story {
+    text-align: center;
+    margin-bottom: 128px;
+    &__wrapper {
+        max-width: 414px;
+        margin: 0 auto;
+        h2 {
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 32px;
+        }
+    }
+}

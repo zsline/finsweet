@@ -1,0 +1,26 @@
+.mision {
+    margin-bottom: 128px;
+    &__inner {
+        margin: 0;
+        padding: 96px 80px;
+        background: var(--lavander);
+    }
+    &__title {
+        margin-bottom: 24px;
+    }
+    h2,
+    h3 {
+        max-width: 480px;
+    }
+    h2,
+    h3,
+    p {
+        margin-bottom: 16px;
+    }
+    a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        color: var(--purple);
+    }
+}

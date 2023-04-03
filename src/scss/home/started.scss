@@ -1,0 +1,29 @@
+.started {
+    margin-bottom: 128px;
+    &__wrapper {
+        position: relative;
+    }
+    img {
+        height: 100%;
+        z-index: 1;
+    }
+    &__info {
+        position: absolute;
+        background: #fff;
+        padding: 80px;
+        height: 584px;
+        width: 706px;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        &--title {
+            margin-bottom: 24px;
+        }
+    }
+    h1 {
+        margin-bottom: 16px;
+    }
+    p {
+        margin-bottom: 32px;
+    }
+}
