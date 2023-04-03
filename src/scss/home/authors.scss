@@ -24,12 +24,11 @@
         border-radius: 50%;
         overflow: hidden;
         margin-bottom: 20px;
+        object-fit: cover;
+        object-position: center center;
         img {
             width: 100%;
             height: auto;
-            object-position: center center;
-            transform: translateY(-15%);
-            object-fit: cover;
         }
     }
     svg {

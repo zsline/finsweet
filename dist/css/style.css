@@ -4238,6 +4238,7 @@ button,
   background: #fff;
   color: var(--black);
   transition: all 0.3s;
+  cursor: pointer;
 }
 button:hover,
 .btn:hover {
@@ -4308,11 +4309,11 @@ button:hover,
   height: 48px;
   border-radius: 50%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: center center;
 }
 .author__avatar img {
   width: 100%;
-  object-fit: cover;
-  transform: translateY(-10%);
 }
 .author__info {
   max-height: 60px;
@@ -4321,6 +4322,13 @@ button:hover,
   font-size: 16px;
   line-height: 28px;
   color: var(--med-grey);
+}
+
+.data {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark-grey);
 }
 
 .header {
@@ -4554,13 +4562,12 @@ button:hover,
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center center;
 }
 .authors__img img {
   width: 100%;
   height: auto;
-  object-position: center center;
-  transform: translateY(-15%);
-  object-fit: cover;
 }
 .authors svg path {
   fill: var(--black);
@@ -4643,6 +4650,80 @@ button:hover,
 }
 .story__wrapper p {
   margin-bottom: 32px;
+}
+
+.featured {
+  background: var(--lavander);
+  padding: 80px 0;
+}
+.featured .title {
+  margin-bottom: 20px;
+}
+.featured h2 {
+  max-width: 624px;
+  margin-bottom: 16px;
+}
+.featured .data {
+  margin-bottom: 16px;
+}
+.featured p {
+  margin-bottom: 32px;
+  max-width: 624px;
+}
+
+.allposts {
+  padding: 64px 0;
+}
+.allposts h1 {
+  margin-bottom: 32px;
+}
+.allposts__wrapper {
+  padding-top: 64px;
+  border-top: 1px solid var(--med-grey);
+}
+.allposts__post {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+.allposts__post--img {
+  width: 37%;
+  height: 318px;
+  background: var(--lavander);
+  object-fit: cover;
+}
+.allposts__post--img img {
+  width: 100%;
+  height: auto;
+}
+.allposts__post--title {
+  color: var(--purple);
+}
+.allposts__post--info {
+  max-width: 624px;
+}
+.allposts__post p {
+  color: var(--med-grey);
+}
+.allposts__pag {
+  display: flex;
+  gap: 16px;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  justify-content: center;
+}
+.allposts__pag--prev {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.allposts__pag--next {
+  cursor: pointer;
+}
+.allposts + .category h2 {
+  text-align: left;
 }
 
 .footer {

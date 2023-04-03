@@ -1,0 +1,18 @@
+.featured {
+    background: var(--lavander);
+    padding: 80px 0;
+    .title {
+        margin-bottom: 20px;
+    }
+    h2 {
+        max-width: 624px;
+        margin-bottom: 16px;
+    }
+    .data {
+        margin-bottom: 16px;
+    }
+    p {
+        margin-bottom: 32px;
+        max-width: 624px;
+    }
+}
