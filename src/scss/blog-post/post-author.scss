@@ -1,0 +1,22 @@
+.post-author {
+    margin: 128px 0;
+    &__inner {
+        padding-bottom: 64px;
+        border-bottom: 1px solid var(--med-grey);
+        flex-wrap: nowrap;
+        gap: 32px;
+    }
+    &__item {
+        width: auto;
+        max-width: 405px;
+    }
+    h2 {
+        margin-bottom: 64px;
+    }
+    img {
+        margin-bottom: 32px;
+    }
+    h3 {
+        margin: 16px 0;
+    }
+}

@@ -1,0 +1,18 @@
+.about-mision {
+    &__item {
+        padding: 128px 24px 64px;
+    }
+    &__inner {
+        background: var(--lavander);
+        .title {
+            margin-bottom: 24px;
+        }
+        h3 {
+            max-width: 480px;
+            margin-bottom: 16px;
+        }
+        p {
+            max-width: 516px;
+        }
+    }
+}

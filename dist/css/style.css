@@ -4205,6 +4205,14 @@ h6 {
   line-height: 24px;
 }
 
+.subtitle {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .container {
   position: relative;
   z-index: 100;
@@ -4321,6 +4329,23 @@ button:hover,
 .author__city {
   font-size: 16px;
   line-height: 28px;
+  color: var(--med-grey);
+}
+
+.author-post {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.author-post__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.author-post h3 {
+  color: var(--purple);
+}
+.author-post__data {
   color: var(--med-grey);
 }
 
@@ -4466,9 +4491,6 @@ button:hover,
   color: var(--purple);
 }
 
-.category {
-  margin-bottom: 128px;
-}
 .category h2 {
   text-align: center;
   margin-bottom: 48px;
@@ -4506,7 +4528,7 @@ button:hover,
 }
 
 .started {
-  margin-bottom: 128px;
+  margin: 128px 0;
 }
 .started__wrapper {
   position: relative;
@@ -4639,7 +4661,7 @@ button:hover,
 
 .story {
   text-align: center;
-  margin-bottom: 128px;
+  margin: 128px 0;
 }
 .story__wrapper {
   max-width: 414px;
@@ -4724,6 +4746,171 @@ button:hover,
 }
 .allposts + .category h2 {
   text-align: left;
+}
+
+.post-offer {
+  margin: 128px 0 64px;
+}
+.post-offer__wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.post-offer__author {
+  margin-bottom: 24px;
+}
+.post-offer h1 {
+  margin-bottom: 34px;
+}
+.post-offer__category {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.post-offer__category img {
+  width: 24px;
+  height: 24px;
+}
+
+.post-content img {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: cover;
+  object-position: top center;
+  margin-bottom: 64px;
+}
+.post-content__text {
+  max-width: 843px;
+  margin: 0 auto;
+}
+.post-content__text h2 {
+  margin-bottom: -8px;
+}
+.post-content__text p {
+  margin: 24px 0;
+}
+.post-content__text ul {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.post-content__text ul li {
+  position: relative;
+  display: block;
+  padding-left: 17px;
+}
+.post-content__text ul li::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--black);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post-author {
+  margin: 128px 0;
+}
+.post-author__inner {
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--med-grey);
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+.post-author__item {
+  width: auto;
+  max-width: 405px;
+}
+.post-author h2 {
+  margin-bottom: 64px;
+}
+.post-author img {
+  margin-bottom: 32px;
+}
+.post-author h3 {
+  margin: 16px 0;
+}
+
+.about-offer {
+  padding-top: 80px;
+  margin-bottom: -250px;
+}
+.about-offer__inner {
+  align-items: center;
+}
+.about-offer__title {
+  position: relative;
+  padding: 64px;
+  background: #fff;
+  z-index: 2;
+}
+.about-offer__text {
+  max-width: 477px;
+}
+.about-offer img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: bottom center;
+  transform: translateY(-63px);
+  z-index: -1;
+}
+.about-offer__statistic--inner {
+  background: var(--yellow);
+  padding: 32px;
+  transform: translateY(-250px);
+}
+.about-offer__statistic--num {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+.about-offer .a {
+  background: linear-gradient(90deg, #592EA9 0%, #592EA9 30%, #FFD050 30%, #FFD050 100%);
+  margin-left: 0;
+  margin-bottom: 0;
+  transform: translateY(-250px);
+}
+
+.about-mision__item {
+  padding: 128px 24px 64px;
+}
+.about-mision__inner {
+  background: var(--lavander);
+}
+.about-mision__inner .title {
+  margin-bottom: 24px;
+}
+.about-mision__inner h3 {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+.about-mision__inner p {
+  max-width: 516px;
+}
+
+.about-creatives__item {
+  margin: 128px 0 0;
+}
+.about-creatives__subtitle {
+  margin: 16px 0;
+}
+.about-creatives__info {
+  max-width: 519px;
+}
+.about-creatives img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .footer {

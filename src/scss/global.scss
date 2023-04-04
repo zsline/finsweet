@@ -51,6 +51,14 @@ h6 {
     line-height: 24px;
 }
 
+.subtitle {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
 .container {
     position: relative;
     z-index: 100;
@@ -165,6 +173,23 @@ button,
     &__city {
         font-size: 16px;
         line-height: 28px;
+        color: var(--med-grey);
+    }
+}
+
+.author-post {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    &__img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    h3 {
+        color: var(--purple);
+    }
+    &__data {
         color: var(--med-grey);
     }
 }
