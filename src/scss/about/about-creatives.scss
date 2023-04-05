@@ -1,5 +1,6 @@
 .about-creatives {
     &__item {
+        position: relative;
         margin: 128px 0 0;
     }
     &__subtitle {
@@ -12,5 +13,16 @@
         width: 100%;
         height: auto;
         object-fit: cover;
+    }
+    &__shapes {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-49%, -50%);
+    }
+    &__circle {
+        position: absolute;
+        bottom: 0;
+        left: 10%;
     }
 }

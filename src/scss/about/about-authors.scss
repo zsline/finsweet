@@ -1,0 +1,13 @@
+.authors-card {
+    text-align: center;
+    padding: 40px 28px;
+    max-width: 296px;
+    background-color: var(--grey);
+    &__img {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}

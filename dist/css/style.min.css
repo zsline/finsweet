@@ -4899,6 +4899,7 @@ button:hover,
 }
 
 .about-creatives__item {
+  position: relative;
   margin: 128px 0 0;
 }
 .about-creatives__subtitle {
@@ -4911,6 +4912,25 @@ button:hover,
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.about-creatives__shapes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -50%);
+}
+.about-creatives__circle {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+
+.about-autors {
+  padding: 128px 0 0;
+}
+.about-autors h2 {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .footer {
