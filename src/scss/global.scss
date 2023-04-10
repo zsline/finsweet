@@ -12,13 +12,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1 {
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
 }
 
-h1 {
+h1,
+.h1 {
     font-size: 48px;
     line-height: 64px;
     letter-spacing: -2px;
@@ -67,7 +69,12 @@ h6 {
     margin: 0 auto;
 }
 
-input {
+input,
+textarea {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     padding: 14px 25px;
     line-height: 28px;
     color: var(--light);
@@ -199,4 +206,10 @@ button,
     font-size: 14px;
     line-height: 20px;
     color: var(--dark-grey);
+}
+
+.post__data {
+    span {
+        color: var(--purple);
+    }
 }
